@@ -66,9 +66,6 @@ document.addEventListener("DOMContentLoaded", () => {
         min = '0' + min;
       }
 
-      document.querySelector('.js-countdown__minutes').innerHTML = min;
-      document.querySelector('.js-countdown__seconds').innerHTML = remSec;
-
       document.querySelector('.js-timer__minutes').innerHTML = min;
       document.querySelector('.js-timer__seconds').innerHTML = remSec;
 
